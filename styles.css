@@ -9,7 +9,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
 }
 
@@ -80,7 +81,7 @@ button {
 
 .body-content {
   padding-top: 5.5rem;
-  padding-bottom: 5.5rem;
+  padding-bottom: 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,6 +96,40 @@ button {
 .body-description {
   font-family: Roboto Slab;
   font-style: italic;
+  color: rgb(108, 117, 125);
+  font-weight: 400;
+}
+
+svg {
+  height: 100px;
+  width: 100px;
+}
+
+#services-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem 6rem 0rem 6rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.service-description {
+  font-size: 1rem;
+  font-family: Roboto Slab;
   color: rgb(108, 117, 125);
   font-weight: 400;
 }
